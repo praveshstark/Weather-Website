@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/png">
+    <!-- Fontawesome cdnjs link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <title>weather site</title>
+</head>
+<body>
+   {{>navbar}}
+    
+<!-- headaer-->
+        <div class="containter-fluid main_header">
+            <div class="row">
+                <div class="col-md-10 col-12 mx-auto">
+              
+                 <!--left-->
+                <div class="row">
+                <div class="col-md-6 col-12 main_header_left">
+                    <p>Welcome to Weather Site</p>
+                    <h1>Get the Latest <span class="text_clr"> Weather</span> Info of your City</h1>
+                    <a href="/weather"><button>Check Now</button></a>
+                </div>
+                
+                <!--right-->
+                <div class="col-md-6 col-12 main_header_right">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/p1.jpg" class="w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/p2.jpg" class="w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/p3.jpg" class="w-100" alt="...">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </a>
+                      </div>
+                </div>
+            </div>
+
+                </div>
+            </div>
+        </div>
+<!--footer-->
+         
+</body>
+</html>
